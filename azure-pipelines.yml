@@ -6,7 +6,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ${image}
+  vmImage: $(image)
 
 steps:
 - task: Maven@3
